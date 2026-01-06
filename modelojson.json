@@ -1,0 +1,58 @@
+{
+    "criterios":{
+        "criterio_chamados_novos": {
+            "criteria": [
+                {
+                    "field": 12,
+                    "searchtype": "equals",
+                    "value": 1
+                }
+            ],
+            "uid_cols": "true",
+            "forcedisplay": [
+                1,
+                2,
+                7,
+                21,
+                22,
+                83
+            ]
+        },
+        "criterio_chamados_atribuidos": {
+            "criteria": [
+                {
+                    "field": 12,
+                    "searchtype": "equals",
+                    "value": 2
+                }
+            ]
+        }
+    },
+    "classificacao_chamados": {
+        "key": "value"
+    },
+    "traducoes": {
+        "traducoes_chaves_chamados": {
+            "Ticket.id": "🆔ID",
+            "Ticket.name": "🏷️Título",
+            "Ticket.content": "💬Descrição",
+            "Ticket.Location.completename": "📍Localização",
+            "Ticket.status": "⏳STATUS"
+        },
+        "traducoes_localizacoes_para_siglas": {
+            "localizacaoKey":"localizacaoValue"
+        }
+    },  
+    "sessao":{
+        "sessao_app_token": "app token here",
+        "sessao_user_token": "session token here"
+    },
+    "slackWebhooks":{
+        "padrao":"slack webhook"
+    },
+    "glpiURL": "glpi base url",
+    "rotasGLPI":{
+        "inicioSessao": "/initSession",
+        "buscaChamado": "/search/Ticket"
+    }    
+}
