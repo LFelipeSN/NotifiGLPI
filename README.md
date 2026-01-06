@@ -19,6 +19,7 @@ NotifiGLPI é um sistema de alertas que monitora novos chamados no GLPI e envia 
 
 ## Demonstração
 
+<img width="1079" height="1445" alt="image" src="https://github.com/user-attachments/assets/3c8c39b0-486b-42fb-b96b-a81bc0b1fc2a" />
 
 # Execução
 É necessário criar um arquivo .json com as informações correspondentes (verificar modelo.json). Após isso, execute o main.py
